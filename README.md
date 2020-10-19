@@ -12,7 +12,7 @@ A beginner level task for practicing refactoring and exception throwing.
 
 Read articles in *See also* section first.
 
-The [ThrowingExceptions.cs](ExceptionGuardClauses\ThrowingExceptions.cs) file contains methods that throws exceptions in case of passing incorrect pararameters. The problem is the code uses wrong exception classes, and you have to replace the exception classes with the classes that suits the best in each situation.
+The [ThrowingExceptions.cs](ExceptionGuardClauses/ThrowingExceptions.cs) file contains methods that throws exceptions in case of passing incorrect pararameters. The problem is the code uses wrong exception classes, and you have to replace the exception classes with the classes that suits the best in each situation.
 
 
 ## Fix Compiler Issues

@@ -101,7 +101,7 @@ namespace ExceptionGuardClauses
 
             if (position < 0 || position >= valueArray.Length)
             {
-                throw new ArgumentOutOfRangeException($"{position} is out of range");
+                throw new IndexOutOfRangeException($"{nameof(position)} is out of range.");
             }
 
             return valueArray[position];

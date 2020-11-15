@@ -128,7 +128,7 @@ namespace ExceptionGuardClauses.Tests
         [TestCase(new int[] { 1 })]
         public void GetArrayValue_IndexArrayPositionIsOutOfRange_ThrowsIndexOutOfRangeException(int[] indexArray)
         {
-            Assert.Throws<ArgumentOutOfRangeException>(() => ThrowingExceptions.GetArrayValue(indexArray, 0, new string[] { "value" }));
+            Assert.Throws<IndexOutOfRangeException>(() => ThrowingExceptions.GetArrayValue(indexArray, 0, new string[] { "value" }));
         }
 
         [TestCase(new int[] { 0, 1 }, 0, new string[] { "value1", "value2" }, ExpectedResult = "value1")]
